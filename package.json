@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node part-1/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/smithrm941/phase-3-challenge/issues"
   },
-  "homepage": "https://github.com/smithrm941/phase-3-challenge#readme"
+  "homepage": "https://github.com/smithrm941/phase-3-challenge#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
 }
