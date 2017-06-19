@@ -1,14 +1,14 @@
 # phase-3-challenge
 
->to install dependencies:
+to install dependencies:
 ```
-npm install
+  npm install
 ```
 ## Part 1: Calculations from URL
 
->start the server with:
+start the server with:
 
->```
+```
   npm start
   ```
 example uses:
@@ -28,6 +28,6 @@ example uses:
 ```
 ## Part 2: Database for grocery store & tests
 
->The "part-2" folder contains data and queries to set up a grocery store database
+The "part-2" folder contains data and queries to set up a grocery store database
 
->Use "schema.sql" to set up the database & "load-data.sql" to load the data on the items in the grocery store from a CSV and insert information on shoppers and orders.
+Use "schema.sql" to set up the database & "load-data.sql" to load the data on the items in the grocery store from a CSV and insert information on shoppers and orders.
