@@ -6,6 +6,8 @@ to install dependencies:
 ```
 ## Part 1: Calculations from URL
 
+### The ```part-1``` folder contains a simple app to make calculations through URLs typed in a browser. 
+
 start the server with:
 
 ```
@@ -28,8 +30,10 @@ example uses:
 ```
 ## Part 2: Database for grocery store & tests
 
-The "part-2" folder contains data and queries to set up a grocery store database
+### The ```part-2``` folder contains data and queries to set up a grocery store database with tables for items, orders, and shoppers:
 
-Use "schema.sql" to set up the database & "load-data.sql" to load the data on the items in the grocery store from a CSV and insert information on shoppers and orders.
+With postgres, use the queries from ```schema.sql``` to set up the database and ```load-data.sql``` to load the data from ```groceries.csv``` into the items table and insert data on shoppers and orders into those respective tables.
 
-The "database.js" file contains pg-promise queries that print interesting information from the grocery store database to the console.
+The ```database.js``` file contains functions that return the result of pg-promise queries on the grocery_store database.
+
+The ```test``` folder contains Mocha + Chai tests of some pg-promise functions that query the database. Type ```npm test``` in the Terminal to run them.

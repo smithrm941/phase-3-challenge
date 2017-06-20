@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node part-1/app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/smithrm941/phase-3-challenge#readme",
   "dependencies": {
+    "chai": "^4.0.2",
     "express": "^4.15.3",
+    "mocha": "^3.4.2",
     "pg-promise": "^5.9.3"
   }
 }
