@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/smithrm941/phase-3-challenge#readme",
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "pg-promise": "^5.9.3"
   }
 }

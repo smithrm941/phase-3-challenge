@@ -31,3 +31,5 @@ example uses:
 The "part-2" folder contains data and queries to set up a grocery store database
 
 Use "schema.sql" to set up the database & "load-data.sql" to load the data on the items in the grocery store from a CSV and insert information on shoppers and orders.
+
+The "database.js" file contains pg-promise queries that print interesting information from the grocery store database to the console.
