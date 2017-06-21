@@ -36,7 +36,7 @@ With postgres, use the queries from ```schema.sql``` to set up the database and 
 
 The ```database.js``` file contains functions that return the result of pg-promise queries on the grocery_store database.
 
-The ```test``` folder contains Mocha + Chai tests of some pg-promise functions that query the database. Type ```npm test``` in the Terminal to run them.
+The ```test``` folder (which is outside of ```part-2```) contains Mocha + Chai tests of some pg-promise functions that query the database. Type ```npm test``` in the Terminal to run them.
 
 ## Part 3: Web Interface for grocery store
 
