@@ -133,3 +133,7 @@ body {
 #close:hover {
   background-color: white;
 }
+
+#total-cost {
+  display: inline;
+}
