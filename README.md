@@ -6,7 +6,7 @@ to install dependencies:
 ```
 ## Part 1: Calculations from URL
 
-### The ```part-1``` folder contains a simple app to make calculations through URLs typed in a browser. 
+### The ```part-1``` folder contains a simple app to make calculations through URLs typed in a browser.
 
 start the server with:
 
@@ -37,3 +37,7 @@ With postgres, use the queries from ```schema.sql``` to set up the database and 
 The ```database.js``` file contains functions that return the result of pg-promise queries on the grocery_store database.
 
 The ```test``` folder contains Mocha + Chai tests of some pg-promise functions that query the database. Type ```npm test``` in the Terminal to run them.
+
+## Part 3: Web Interface for grocery store
+
+### The ```part-3``` folder contains HTML, CSS and JS files for a front-end only website where one can add grocery items into a cart that automatically sums the prices as items are added. Just open ```grocer.html``` in a browser to try it out.
